@@ -18,4 +18,5 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('detail/<int:blog_id>', views.business_signup_detail, name="detail")
 ]
